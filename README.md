@@ -2,38 +2,23 @@
 
 Contracts for the NFT Collection Factory dApp monorepo
 
-## 🔧 Setting up Local Development
-
 Required:
 
 - [Node v16](https://nodejs.org/download/release/latest-v16.x/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 - [Git](https://git-scm.com/downloads)
 
-Refer to `.env` for required keys.
-
 ```bash
 # install dependancies
 $ yarn
 $ yarn chain
 ```
-
-The chain is now running at `http://localhost:8545`!
-The contracts are deployed automatically.
-This network is reffered to as localhost.
-Open the source code and start editing!
-
-Make sure your Metamask chainId is 31337. It is 1337 by default.
-
 ## Testing
 
 ```bash
 $ yarn typechain
 $ yarn test
 ```
-
-The tests are run on the hardhat network. It is different from localhost.
-This code is not audited. It is not recommended to deploy to mainnet.
 
 ## Architecture / Main Layout
 
